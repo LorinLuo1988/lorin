@@ -1,0 +1,18 @@
+* {
+	padding: 0px;
+	margin: 0px;
+}
+body {
+	padding: 0 5%;
+	line-height: 1;
+	background-color: #cccccc;
+}
+ul {
+	list-style-type: none;
+}
+#bg a {
+	text-decoration: none;
+}
+.pace .pace-activity {
+	right: 6%;
+}

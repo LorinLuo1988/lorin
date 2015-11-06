@@ -1,0 +1,10 @@
+<div id="header" ng-controller="headerController">
+	<ul class="clearfix" nav-click-switch toggle-class-name="active">
+		<li ng-repeat="i in navList" class="pull-left" ng-class="{active: $index == activeIndex}">
+			<a ui-sref="{{i.state}}">
+				<span class="{{i.iconClassName}}"></span>
+				<span ng-bind="i.title"></span>
+			</a>
+		</li>
+	</ul>
+</div>

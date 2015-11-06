@@ -1,0 +1,40 @@
+#header {
+	text-align: center;
+	background-color: #333333;
+	font-size: 0px;
+}
+
+#header ul {
+	display: inline-block;
+	margin-bottom: 0px;
+	font-size: 14px;
+}
+
+#header ul li {
+	cursor: pointer;
+}
+#header ul li:hover {
+	background-color: gray;
+}
+#header ul li.active {
+	background-color: #009926;
+}
+#header ul li a {
+	display: block;
+	padding: 5px 10px;
+	line-height: 35px;
+	color: #ffffff;
+}
+#header ul li.active a {
+	color: #333333;
+	font-weight: bold;
+}
+@media screen and (max-width: 760px) {
+	#header ul {
+		font-size: 7px;
+	}
+	#header ul li a {
+		padding: 2px 5px;
+		line-height: 25px;
+	}
+}
