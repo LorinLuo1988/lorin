@@ -21,9 +21,9 @@ define([
 					{title: "兴趣爱好"}
 				];
 
-				$timeout(function () {
-					$("#home .lorin-scroll").lorinScroller({});
-				}, 50);
+				//$timeout(function () {
+				//	$("#home .lorin-scroll").lorinScroller({});
+				//}, 50);
 			}
 		]);
 	};

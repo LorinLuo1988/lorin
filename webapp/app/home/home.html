@@ -1,11 +1,5 @@
 <div ng-include="'app/common/header.html'"></div>
 <div id="home">
-	<div style="height: 730px;" class="lorin-scroll">
-		<ul class="clearfix">
-			<li ng-repeat="i in dragGrid" class="pull-left bg-success">
-				<img src="./img/bg1.jpg" alt=""/>
-				<h4 ng-bind="i.title" class="text-muted"></h4>
-			</li>
-		</ul>
+	<div style="height: 730px;" scroller drag-grid="dragGrid">
 	</div>
 </div>
