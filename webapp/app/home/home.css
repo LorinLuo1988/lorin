@@ -9,8 +9,7 @@
 	position: relative;
 	width: 32%;
 	margin-right: 2%;
-	margin-top: 2%;
-	border: 1px solid green;
+	margin-bottom: 2%;
 }
 #home ul li:nth-child(3n) {
 	margin-right: 0px;

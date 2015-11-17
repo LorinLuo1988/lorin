@@ -1,20 +1,22 @@
 <!DOCTYPE html>
 <head lang="en">
-	<!--<base href="/">-->
+	<base href="./"> <!--配置相对路径，页面中所有的相对路径都以该路径为基准-->
 	<meta charset="UTF-8">
 	<title></title>
-	<link rel="stylesheet" href="lib/pace-0.5.6/themes/blue/pace-theme-flash.css"/>
-	<link rel="stylesheet" href="lib/bootstrap-3.3.5-dist/css/bootstrap.css"/>
-	<link rel="stylesheet" href="lib/bootstrap-3.3.5-dist/css/bootstrap-theme.css"/>
+	<!-- build:css style/vender.min.css -->
+	<link rel="stylesheet" href="style/pace-0.5.6/themes/blue/pace-theme-flash.css"/>
+	<link rel="stylesheet" href="style/bootstrap-3.3.5-dist/css/bootstrap.css"/>
+	<link rel="stylesheet" href="style/bootstrap-3.3.5-dist/css/bootstrap-theme.css"/>
 	<link rel="stylesheet" href="style/common.css"/>
-	<link rel="stylesheet" href="app/common/header.css"/>
 	<link rel="stylesheet" href="app/home/home.css"/>
+	<link rel="stylesheet" href="app/common/header.css"/>
+	<!-- endbuild -->
 </head>
 <body id="bg">
-<div ui-view>
-
-</div>
-
-<script data-main="./app/main" src="./lib/requirejs/require.js"></script>
+<header toggle-class-name="active"></header>
+<div ui-view></div>
+<script src="app/lib/requirejs/require.js"></script>
+<script src="app/require.config.js"></script>
+<script src="app/app.js"></script>
 </body>
 </html>

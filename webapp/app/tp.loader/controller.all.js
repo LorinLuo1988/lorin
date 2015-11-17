@@ -3,7 +3,6 @@
  */
 define([
 	"home/home.controller",
-	"common/header.controller",
 	"introduce/introduce.controller",
 	"education/education.controller",
 	"work/work.controller",
