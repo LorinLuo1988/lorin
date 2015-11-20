@@ -71,9 +71,8 @@ module.exports = function (grunt) {
 			html: {
 				files: ["<%= config.app %>/**/*.html"],
 				options: {
-					livereload: "<%= connect.options.livereload %>" //会先执行tasks再执行livereload
-				},
-				tasks: ["copy:html"]  //文件变化时要执行的task，
+					livereload: "<%= connect.options.livereload %>"
+				}
 			},
 			css: {
 				files: ["<%= config.app %>/**/*.css"],
@@ -84,8 +83,9 @@ module.exports = function (grunt) {
 			js: {
 				files: ["<%= config.app %>/**/*.js"],
 				options: {
-					livereload: "<%= connect.options.livereload %>"
-				}
+					livereload: "<%= connect.options.livereload %>" //会先执行tasks再执行livereload
+				},
+				tasks: ["jshint"] //文件变化时要执行的task
 			}
 		},
 		copy: {
@@ -297,6 +297,13 @@ module.exports = function (grunt) {
 					}
 				]
 			}
+		},
+		jshint: {
+			all: [
+				"<%= config.app %>/**/*.js",
+				"!<%= config.app %>/lib/**/*.js",
+				"<%= config.app %>/lib/components/**/*.js"
+			]
 		}
 	});
 
@@ -330,6 +337,6 @@ module.exports = function (grunt) {
 			]);
 		}
 
-		//grunt.task.run(["connect:dev", "watch"]);
+		grunt.task.run(["connect:dev", "watch"]);
 	});
 };
