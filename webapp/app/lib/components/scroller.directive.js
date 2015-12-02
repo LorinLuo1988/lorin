@@ -9,46 +9,52 @@ define([
 
 		module.directive("scroller", [
 			"$interval",
-			"$timeout",
-			function ($interval, $timeout) {
+			function ($interval) {
 				return {
-					priority: 1,
+					priority: 9999,
+					restrict: "AE",
 					scope: {
-						dragGrid: "="
+						dragGrid: "=",
+						clickState: "&"
 					},
 					templateUrl: "app/common/scroller.html",
-					link: function (scope, iElement, iAttrs) {
-						function drag (container) {
-							if ($(".draggableDiv")) {
-								$(".draggableDiv").remove();
-							}
-							var ul = container.find("ul");
-							var li =  container.find("li");
-							var originLi = null;
-							var exchangeable = false;
-							var draggable = false;
-							var dragDiv = $("<div class='draggableDiv'><img draggable='false' src='' alt=''/><a></a></div>").css({
-								width: li.width()
+					compile: function (tElement, tAttr) {
+						$(tElement).lorinScroller();
+
+						return function (scope, iElement, iAttrs) {
+							$("#home").css({
+								height: document.documentElement.clientHeight - $("#header").height() - 15
 							});
-							var moveDiv = null;
-							var scrollable = $(".lorin-content").length ? true : false;
 
-							ul.append(dragDiv);
+							$("#hobby").css({
+								height: document.documentElement.clientHeight - $("#header").height() - 15
+							});
 
-							li.off("mousedown", ":not(a)", mousedownFun);
-							$(document).off("mousemove", mousemoveFun);
-							$(document).off("mouseup", mouseupFun);
+							var container = $(iElement), ul, li, originLi, exchangeable, draggable,
+								dragDiv, moveLi, scrollable, mousedownX, mousedownY,
+								startTime, overTime, timer, browserName;
 
-							li.on("mousedown", ":not(a)", mousedownFun);
-							$(document).on("mousemove", mousemoveFun);
-							$(document).on("mouseup", mouseupFun);
+							browserName = (function () {
+								var userAgent = navigator.userAgent;
+								var browserName = "";
+
+								if (userAgent.indexOf("Chrome") != -1) {
+									browserName = "Chrome";
+								} else if (userAgent.indexOf("Firefox") != -1) {
+									browserName = "Firefox";
+								} else if (userAgent.indexOf("MSIE") != -1 || userAgent.indexOf("rv:11.0") != -1) {
+									browserName = "IE";
+								}
+								return browserName;
+							})();
 
 							function mousemoveFun (event) {
 								if (!draggable) {
 									return false;
 								}
-								var left = event.clientX - parseInt($("body").css("paddingLeft")) - dragDiv.width() / 2;
-								var top = event.clientY - parseInt($("#header").css("height")) - dragDiv.height() / 2;
+
+								var left = event.clientX - parseInt($("body").css("paddingLeft")) - mousedownX;
+								var top = event.clientY - parseInt($("#header").css("height"))- mousedownY;
 
 								if (scrollable) {
 									left -= parseInt($(".lorin-content").css("left"));
@@ -86,18 +92,41 @@ define([
 									left: left,
 									top: top
 								});
-							}
+							};
 
 							function mouseupFun (event) {
-								if (!exchangeable) {
+								overTime = new Date(event.timeStamp);
+
+								document.ondragstart=function() {
+									return true;
+								};
+
+								if (overTime - startTime < 200) {
+									dragDiv.css({
+										top: originLi.position().top,
+										left: originLi.position().left
+									});
 									li.find("div.mask").hide();
 									dragDiv.hide();
 									return false;
 								}
 
+								if (!exchangeable) {
+									if (originLi) {
+										dragDiv.animate({
+											top: originLi.position().top,
+											left: originLi.position().left
+										}, 150, "linear", function () {
+											li.find("div.mask").hide();
+											dragDiv.hide();
+										});
+									}
+									return false;
+								}
+
 								var swapLi = null;
-								var left = event.clientX - parseInt($("body").css("paddingLeft")) - dragDiv.width() / 2;
-								var top = event.clientY - parseInt($("#header").css("height")) - dragDiv.height() / 2;
+								var left = event.clientX - parseInt($("body").css("paddingLeft")) - mousedownX;
+								var top = event.clientY - parseInt($("#header").css("height")) - mousedownY;
 
 								if (scrollable) {
 									left -= parseInt($(".lorin-content").css("left"));
@@ -124,95 +153,134 @@ define([
 								});
 
 								if (swapLi) {
-									moveDiv = swapLi.clone();
-									moveDiv.css({
+									moveLi = swapLi.clone();
+									moveLi.css({
 										position: "absolute",
 										zIndex: 10,
 										top: swapLi.position().top,
 										left: swapLi.position().left
 									});
-									ul.append(moveDiv);
-									moveDiv.animate({
+									moveLi.find("a").css("top", 0);
+									ul.append(moveLi);
+									draggable = false;
+									exchangeable = false;
+
+									if (swapLi[0] == originLi[0]) {
+										li.find("div.mask").hide();
+										dragDiv.hide();
+										moveLi.remove();
+										return false;
+									}
+
+									moveLi.animate({
 										top: originLi.position().top,
 										left: originLi.position().left
 									}, 300, "linear", function () {
-										var originImg = originLi.find("img").attr("ng-src");
-										var originA = originLi.find("a");
-										var swapImg = swapLi.find("img").attr("ng-src");
-										var swapA = swapLi.find("a");
-
-										originLi.find("img").attr("ng-src", swapImg);
-										originLi.find("img").attr("src", swapImg);
-										originLi.find("a").remove().end().append(swapA);
-										swapLi.find("img").attr("ng-src", originImg);
-										swapLi.find("img").attr("src", originImg);
-										swapLi.find("a").remove().end().append(originA);
-										moveDiv.remove();
+										moveLi.remove();
 										li.find("div.mask").hide();
 										dragDiv.hide();
-										draggable = false;
-										exchangeable = false;
+										scope.$emit("changeDragGrid", {originIndex: originLi.index(), swapIndex: swapLi.index()});
 									});
 								}
-							}
+							};
 
 							function mousedownFun (event) {
+								if (browserName == "Firefox") {
+									$("html").css("-moz-user-select", "none");
+									document.ondragstart=function() {
+										return false;
+									};
+								} else {
+									$(document).on("selectstart", function () {
+										return false;
+									});
+								}
+
+								startTime = new Date(event.timeStamp);
+								mousedownX = event.offsetX;
+								mousedownY = event.offsetY;
 								originLi = $(event.delegateTarget);
 								dragDiv.find("img").attr("src", originLi.find("img").attr("src"));
 								dragDiv.find("a").html(originLi.find("a").html());
 								originLi.find("div.mask").show();
 								dragDiv.css({
 									left: originLi.position().left,
-									top: originLi.position().top
+									top: originLi.position().top,
+									width: li.width()
 								}).show();
 
 								draggable = true;
-							}
-						};
+							};
 
-						$(window).on("resize", function () {
-							drag($(iElement));
-						});
-
-						var timer = $interval(function () {
-							var i = 0;
-
-							$(iElement).find("img").each(function () {
-								if ($(this).height() == 0) {
-									return false;
+							function drag () {
+								if ($(".draggableDiv")) {
+									$(".draggableDiv").remove();
 								}
 
-								i++;
-							});
-
-							if ($(iElement).find("img").length == i) {
-								$(iElement).lorinScroller();
-
-								if (!$(iElement).find(".lorin-bar").length) {
-									$(iElement).css("marginTop", "5px");
-								}
+								$(iElement).lorinScroller("update");
 
 								$(iElement).find("li").hover(
 									function () {
 										$(this).find("a").animate({
-											bottom: "0px"
+											top: "0px"
 										}, 200, "linear");
 									},
-									function () {
+									function (event) {
 										$(this).find("a").animate({
-											bottom: "-30px"
+											top: "-30px"
 										}, 200, "linear");
 									}
 								);
 
-								drag($(iElement));
-								$interval.cancel(timer);
-							}
-						}, 10);
+								ul = container.find("ul");
+								li =  container.find("li");
+								originLi = null;
+								exchangeable = false;
+								draggable = false;
+								dragDiv = $("<div class='draggableDiv'><img draggable='false' src='' alt=''/><a></a></div>");
+								moveLi = null;
+								scrollable = $(".lorin-content").length ? true : false;
+
+								ul.append(dragDiv);
+
+								li.off("mousedown", ":not(a)", mousedownFun);
+								$(document).off("mousemove", mousemoveFun);
+								$(document).off("mouseup", mouseupFun);
+
+								li.on("mousedown", ":not(a)", mousedownFun);
+								$(document).on("mousemove", mousemoveFun);
+								$(document).on("mouseup", mouseupFun);
+							};
+
+							$(window).on("resize", function () {
+								$("#home").css({
+									height: document.documentElement.clientHeight - $("#header").height() - 15
+								});
+
+								$(".homeScroller").lorinScroller("update");
+							});
+
+							timer = $interval(function () {
+								var i = 0;
+
+								$(iElement).find("img").each(function () {
+									if ($(this).height() == 0) {
+										return false;
+									}
+
+									i++;
+								});
+
+								if ($(iElement).find("img").length == i) {
+									$interval.cancel(timer);
+									drag();
+								}
+							}, 20);
+						}
 					}
 				};
-			}]
-		);
+			}
+		]);
 	};
 
 	return {initialize: initialize};

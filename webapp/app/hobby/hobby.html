@@ -1,3 +1,54 @@
-<div>
-	hobby
+<div id="hobby" scroller-common>
+	<div class="row">
+		<div class="col-md-6 col-xs-6 clo-sm-6 col-lg-6">
+			<div class="panel panel-success">
+				<div class="panel-heading">
+					<h3 class="panel-title">
+						<span ng-bind="music.title"></span>
+						<span ng-class="{'glyphicon glyphicon-pause music-stop': music.play, 'glyphicon glyphicon-play-circle music-play': !music.play}" class="pull-right" ng-click="togglePlayMusic()"></span>
+						<div class="pull-right" translate translate-stop="music.translateStop">
+							<span ng-bind-template="{{currentSong.name + '-' + currentSong.singer }}"></span>
+						</div>
+					</h3>
+				</div>
+				<div class="panel-body">
+					<em ng-bind="music.subTitle"></em>
+				</div>
+				<table class="table table-hover table-bordered table-striped">
+					<thead>
+					<tr>
+						<th ng-repeat="singer in music.singer track by $index">
+							<a popover="singer.popoverContent" ng-bind="singer.name" class="text-muted"></a>
+						</th>
+					</tr>
+					</thead>
+					<tbody>
+					<tr ng-repeat="i in music.dataList" ng-init="index = $index">
+						<td ng-repeat="song in i" ng-mouseover="togglePlayIcon(index, $index, 'show')" ng-mouseout="togglePlayIcon(index, $index, 'hide')">
+							<span ng-bind="song.name"></span>
+							<span ng-show="song.playIconShow" class="glyphicon glyphicon-play-circle" ng-click="switchSong(index, $index)"></span>
+						</td>
+					</tr>
+					</tbody>
+				</table>
+			</div>
+		</div>
+		<div class="col-md-6 col-xs-6 clo-sm-6 col-lg-6" ng-repeat="hobby in [movie, sport, food, entertainment]">
+			<div class="panel panel-success">
+				<div class="panel-heading">
+					<h3 class="panel-title" ng-bind="hobby.title"></h3>
+				</div>
+				<div class="panel-body">
+					<em ng-bind="hobby.subTitle"></em>
+				</div>
+				<ul class="list-group">
+					<li class="list-group-item" ng-repeat="i in hobby.dataList" ng-bind="i"></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<audio id="audio" controls="controls" loop="loop" ng-hide="true">
+		<source ng-src="{{currentSong.mp3}}" type="audio/mpeg">
+		<source ng-src="{{currentSong.wma}}" type="audio/wma">
+	</audio>
 </div>

@@ -43,6 +43,7 @@ require([
 		"$rootScope",
 		"$timeout",
 		function ($rootScope, $timeout) {
+
 		}
 	]);
 

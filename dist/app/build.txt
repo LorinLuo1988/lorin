@@ -3,6 +3,10 @@ common/header.css
 ----------------
 common/header.css
 
+hobby/hobby.css
+----------------
+hobby/hobby.css
+
 home/home.css
 ----------------
 home/home.css
@@ -19,6 +23,7 @@ work/route.js
 skill/route.js
 opus/route.js
 tp.loader/route.all.js
+common/header.controller.js
 home/home.controller.js
 introduce/introduce.controller.js
 education/education.controller.js
@@ -29,6 +34,10 @@ hobby/hobby.controller.js
 tp.loader/controller.all.js
 lib/components/header.directive.js
 lib/components/scroller.directive.js
+lib/components/modal.directive.js
+lib/components/scroller.common.directive.js
+lib/components/translate.directive.js
+lib/components/popover.directive.js
 tp.loader/directive.all.js
 lib/angular/angular-ui-router.js
 lib/jquery/jquery-1.11.1.min.js

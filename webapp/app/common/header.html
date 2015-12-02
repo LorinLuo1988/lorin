@@ -1,7 +1,7 @@
 <div id="header">
 	<ul class="clearfix">
 		<li ng-repeat="i in navList" class="pull-left" ng-class="{active: $index == activeIndex}">
-			<a ui-sref="{{i.state}}">
+			<a ui-sref="{{i.state}}" ng-click="jumpTip($event)">
 				<span class="{{i.iconClassName}}"></span>
 				<span ng-bind="i.title"></span>
 			</a>

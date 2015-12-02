@@ -1,0 +1,28 @@
+#hobby {
+	margin-top: 10px;
+}
+
+#hobby table td {
+	position: relative;
+}
+
+#hobby table td span:nth-child(2) {
+	position: absolute;
+	top: 50%;
+	margin: -7px 0 0 5px;
+}
+#hobby table td span:nth-child(2):hover {
+	color: green;
+	cursor: pointer;
+}
+#hobby .music-stop, #hobby .music-play {
+	margin-left: 5px;
+	cursor: pointer;
+	color: gray;
+}
+#hobby .music-stop:hover {
+	color: red;
+}
+#hobby .music-play:hover {
+	color: green;
+}

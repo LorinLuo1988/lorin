@@ -47,8 +47,8 @@ module.exports = function (grunt) {
 		connect: {
 			options: {
 				protocol: 'http',
-				port: 8002,
-				livereload: 8013,
+				port: 8005,
+				livereload: 8018,
 				open: true, //是否在server启动后自动打开页面
 				keepalive: false, //是否一直保存server开启，若有watch任务执行，则server也会一直开启
 				hostname: "localhost", //若是localhost则不能使用ip地址来访问，若是0.0.0.0则可以使用ip地址以及localhost来访问
@@ -140,6 +140,12 @@ module.exports = function (grunt) {
 						expand: true,
 						cwd: "<%= config.app %>/", //src要找文件的文件夹
 						src: "img/*",
+						dest: "<%= config.dist%>/"
+					},
+					{
+						expand: true,
+						cwd: "<%= config.app %>/", //src要找文件的文件夹
+						src: "music/*",
 						dest: "<%= config.dist%>/"
 					}
 				]

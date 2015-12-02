@@ -2,6 +2,7 @@
  * Created by doyen on 2015/11/4.
  */
 define([
+	"common/header.controller",
 	"home/home.controller",
 	"introduce/introduce.controller",
 	"education/education.controller",

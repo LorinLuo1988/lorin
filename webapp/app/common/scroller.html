@@ -1,7 +1,7 @@
 <ul class="clearfix">
 	<li ng-repeat="i in dragGrid" class="pull-left bg-success">
-		<img ng-src="{{i.imgUrl}}" alt="" draggable="false"/>
-		<a href="#{{i.state}}" ng-bind="i.title"></a>
+		<img ng-src="{{i.imgUrl}}" alt=""/>
+		<a class="home-scroller-link" ui-sref="{{i.state}}" ng-click="clickState({state: i.state})" ng-bind="i.title"></a>
 		<div class="mask"></div>
 	</li>
 </ul>

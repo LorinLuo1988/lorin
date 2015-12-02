@@ -1,7 +1,8 @@
 #header {
 	text-align: center;
-	background-color: #333333;
+	background-color: #5cc683;
 	font-size: 0px;
+	border-radius: 5px;
 }
 
 #header ul {
@@ -12,12 +13,16 @@
 
 #header ul li {
 	cursor: pointer;
+	border-radius: 5px;
 }
 #header ul li:hover {
-	background-color: gray;
+	background-color: #57ae63;
+}
+#header ul li:hover a{
+	color: #666666;
 }
 #header ul li.active {
-	background-color: #009926;
+	background-color: #75e886;
 }
 #header ul li a {
 	display: block;
