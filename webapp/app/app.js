@@ -8,6 +8,7 @@ require([
 	"appDirective",
 	"ngRoute",
 	"scroller",
+	"slider",
 	"bootstrap"
 ], function (pace, appRoute, appController, appDirective) {
 	pace.start({

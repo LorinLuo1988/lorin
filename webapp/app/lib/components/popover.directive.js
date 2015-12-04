@@ -23,6 +23,12 @@ define([
 							content: scope.popoverContent,
 							trigger: "hover"
 						});
+						scope.$watch("popoverContent", function (newValue, oldValue) {
+							if (oldValue != newValue) {
+								$(iElement).attr("data-content", newValue);
+								$(iElement).next(".popover").find(".popover-content").html(newValue);
+							}
+						}, true);
 					}
 				}
 			}

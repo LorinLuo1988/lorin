@@ -19,7 +19,9 @@ define([
 					},
 					templateUrl: "app/common/scroller.html",
 					compile: function (tElement, tAttr) {
-						$(tElement).lorinScroller();
+						$(tElement).lorinScroller({
+							backgroundColor: "#fbfbfb"
+						});
 
 						return function (scope, iElement, iAttrs) {
 							$("#home").css({

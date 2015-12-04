@@ -1,15 +1,22 @@
 <div id="lorin-modal" class="modal fade in" tabindex="-1" role="dialog">
-	<div class="modal-dialog modal-sm" role="document">
+	<div class="modal-dialog {{modalOptions.modalSizeClassName}}" role="document">
 		<div class="modal-content">
 			<div class="modal-header">
 				<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
-				<h4 class="modal-title" id="gridModalLabel">Modal title</h4>
+				<h4 class="modal-title {{modalOptions.title.className}}" id="gridModalLabel" ng-bind="modalOptions.title.text" ng-show="modalOptions.title.text">Modal title</h4>
 			</div>
 			<div class="modal-body">
 				<div class="container-fluid">
+					<div ng-show="modalOptions.type == 'page-jump'" class='row {{i.className}}' ng-repeat="i in modalOptions.body" ng-bind="i.text"></div>
+					<div ng-show="modalOptions.type == 'picture-slider'" class="row">
+						<div class="slider col-sm-12 col-xs-12 col-md-12 col-lg-12" id="slider" style="height: 300px;">
+
+						</div>
+					</div>
 				</div>
 			</div>
 			<div class="modal-footer">
+				<button class="btn {{value.className}}" ng-click="value.callBack(modal)" ng-repeat="(key, value) in modalOptions.footer" ng-bind="value.text" class="{{value.className}}"></button>
 			</div>
 		</div><!-- /.modal-content -->
 	</div><!-- /.modal-dialog -->

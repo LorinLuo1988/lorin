@@ -1,8 +1,12 @@
+body {
+	background: url(../../img/home-bg-1.jpg);
+}
 #header {
 	text-align: center;
 	background-color: #5cc683;
 	font-size: 0px;
 	border-radius: 5px;
+	position: relative;
 }
 
 #header ul {
@@ -42,4 +46,18 @@
 		padding: 2px 5px;
 		line-height: 25px;
 	}
+}
+.lorin-content {
+	min-width: 100%;
+}
+#header .toggle-jump-alert {
+	position: absolute;
+	margin: 0px;
+	left: 25px;
+	top: 50%;
+	margin-top: -9px;
+}
+#header .toggle-jump-alert:hover {
+	cursor: pointer;
+	color: #ffffff;
 }

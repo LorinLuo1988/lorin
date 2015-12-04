@@ -11,31 +11,34 @@ define([
 			"$timeout",
 			function ($timeout) {
 				return {
-					priority: 9999,
+					priority: 1,
 					restrict: "AE",
 					scope: {
+						containerId: "@"
 					},
 					compile: function (tElement, tAttr) {
-						$(tElement).lorinScroller();
+						$(tElement).lorinScroller({
+							backgroundColor: "#fff"
+						});
 
 						return function (scope, iElement, iAttrs) {
-							$("#hobby").css({
+							$(scope.containerId).css({
 								height: document.documentElement.clientHeight - $("#header").height() - 15
 							});
 
 							$(window).on("resize", function () {
-								$("#hobby").css({
+								$(scope.containerId).css({
 									height: document.documentElement.clientHeight - $("#header").height() - 15
 								});
 
-								$("#hobby").lorinScroller("update");
+								$(scope.containerId).lorinScroller("update");
 							});
 
 							$timeout(function () {
-								$("#hobby").lorinScroller("update", {
-									backgroundColor: "rgba(82, 154, 117, 0.46)"
+								$(scope.containerId).lorinScroller("update", {
+									backgroundColor: "#fbfbfb"
 								});
-							}, 0);
+							}, 50);
 						}
 					}
 				};

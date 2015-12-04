@@ -13,8 +13,8 @@ define([
 			"$state",
 			"$timeout",
 			function ($rootScope, $scope, $state, $timeout) {
-				$rootScope.clickState = "home",
 				$scope.activeIndex = 0;
+
 				$scope.navList = [
 					{title: "主页", iconClassName: "glyphicon glyphicon-home", state: "home", active: true},
 					{
@@ -54,6 +54,7 @@ define([
 						active: false
 					}
 				];
+
 				$rootScope.modalOptions = {
 					title: {
 						text: "警告!",
@@ -68,16 +69,83 @@ define([
 					footer: {
 						cancelBtn: {
 							text: "取消",
-							className: "btn btn-warning modal-cancel"
+							className: "btn-warning btn-sm modal-cancel",
+							callBack: function (data) {
+								data.modal.modal("hide");
+							}
 						},
 						sureBtn: {
 							text: "确定",
-							className: "btn btn-success modal-sure"
+							className: "btn-success btn-sm modal-sure",
+							callBack: function (data) {
+								$rootScope.modalOptions.preventStateChange = false;
+								data.modal.modal("hide");
+								$state.go($rootScope.clickState);
+								$rootScope.modalOptions.preventStateChange = true;
+							}
 						}
 					},
-					type: "page-jump"
+					type: "page-jump",
+					preventStateChange: true,
+					modalSizeClassName: "modal-sm"
 				};
+
+				$scope.popoverConfig = {
+					popoverContent: "关闭页面切换跳转提示",
+					popoverClassName: "glyphicon glyphicon-eye-open",
+					togglePopoverClassName: function () {
+						if ($scope.popoverConfig.popoverClassName == "glyphicon glyphicon-eye-close") {
+							$scope.popoverConfig.popoverClassName = "glyphicon glyphicon-eye-open";
+							$scope.popoverConfig.popoverContent = "关闭页面切换跳转提示";
+							$rootScope.modalOptions.preventStateChange = true;
+						} else {
+							$scope.popoverConfig.popoverClassName = "glyphicon glyphicon-eye-close";
+							$scope.popoverConfig.popoverContent = "开启页面切换跳转提示";
+							$rootScope.modalOptions.preventStateChange = false;
+						}
+					}
+				};
+
+				$rootScope.resetModalOptions = function () {
+					$rootScope.modalOptions = {
+						title: {
+							text: "警告!",
+							className: "text-danger"
+						},
+						body: [
+							{
+								text: "确定切换页面吗.",
+								className: "text-info"
+							}
+						],
+						footer: {
+							cancelBtn: {
+								text: "取消",
+								className: "btn-warning btn-sm modal-cancel",
+								callBack: function (data) {
+									data.modal.modal("hide");
+								}
+							},
+							sureBtn: {
+								text: "确定",
+								className: "btn-success btn-sm modal-sure",
+								callBack: function (data) {
+									$rootScope.modalOptions.preventStateChange = false;
+									data.modal.modal("hide");
+									$state.go($rootScope.clickState);
+									$rootScope.modalOptions.preventStateChange = true;
+								}
+							}
+						},
+						type: "page-jump",
+						preventStateChange: $scope.popoverConfig.popoverClassName == "glyphicon glyphicon-eye-close" ? false : true,
+						modalSizeClassName: "modal-sm"
+					};
+				};
+
 				$scope.$on("$stateChangeSuccess", function () {
+					$rootScope.clickState = $state.current.name;
+
 					switch ($state.current.name) {
 						case "home":
 							$scope.activeIndex = 0; break;

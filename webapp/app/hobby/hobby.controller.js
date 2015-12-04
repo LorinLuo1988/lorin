@@ -10,7 +10,8 @@ define([
 		module.controller("hobbyController", [
 			"$scope",
 			"$timeout",
-			function ($scope, $timeout) {
+			"$rootScope",
+			function ($scope, $timeout, $rootScope) {
 				$scope.music = {
 					title: "音乐",
 					subTitle: "音乐带给我无尽的美感",
@@ -139,6 +140,40 @@ define([
 						$scope.music.translateStop = false;
 						$("#audio")[0].play();
 					}
+				};
+
+				$scope.playPicture = function (type) {
+					var sliderImg = [];
+
+					switch (type) {
+						case "体育": sliderImg = ["img/sport-1.jpg", "img/sport-2.jpg", "img/sport-3.jpg", "img/sport-4.jpg"]; break;
+						case "电影电视剧": sliderImg = ["img/movie-1.jpg", "img/movie-2.jpg", "img/movie-3.jpg", "img/movie-4.jpg"]; break;
+						case "美食": sliderImg = ["img/food-1.jpg", "img/food-2.jpg", "img/food-3.jpg", "img/food-4.jpg"]; break;
+						case "休闲娱乐": sliderImg = ["img/entertainment-1.jpg", "img/entertainment-2.jpg", "img/entertainment-3.jpg", "img/entertainment-4.jpg"]; break;
+						default: break;
+					}
+
+					$rootScope.modalOptions = {
+						title: {
+							text: "图片集锦",
+							className: "text-primary"
+						},
+						body: sliderImg,
+						footer: {
+							sureBtn: {
+								text: "关闭",
+								className: "btn-success btn-sm modal-sure",
+								callBack: function (data) {
+									data.modal.modal("hide");
+								}
+							}
+						},
+						type: "picture-slider",
+						preventStateChange: true,
+						modalSizeClassName: "modal-lg"
+					};
+
+					$("#lorin-modal").modal();
 				};
 
 				$timeout(function () {

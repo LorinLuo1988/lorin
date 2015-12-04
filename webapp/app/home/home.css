@@ -15,7 +15,7 @@
 	width: 32%;
 	margin-right: 2%;
 	margin-bottom: 2%;
-	cursor: pointer;
+	cursor: move;
 	overflow: hidden;
 }
 #home ul li:last-of-type {
@@ -45,14 +45,14 @@
 	z-index: 1;
 	top: 0px;
 	left: 0px;
-	background-color: #5dd8ce;
+	background-color: #e0e0e0;
 	display: none;
 }
 #home ul div.draggableDiv {
 	position: absolute;
 	z-index: 2;
 	display: none;
-	cursor: pointer;
+	cursor: move;
 }
 #home ul div.draggableDiv img {
 	width: 100%;
@@ -67,7 +67,4 @@
 	color: white;
 	background-color: black;
 	opacity: 0.5;
-}
-#home .lorin-scroll-container {
-	background: url(../../img/home-bg.jpg) repeat scroll left top;
 }

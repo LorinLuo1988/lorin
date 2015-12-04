@@ -1,4 +1,4 @@
-<div id="hobby" scroller-common>
+<div id="hobby" scroller-common container-id="#hobby">
 	<div class="row">
 		<div class="col-md-6 col-xs-6 clo-sm-6 col-lg-6">
 			<div class="panel panel-success">
@@ -36,7 +36,10 @@
 		<div class="col-md-6 col-xs-6 clo-sm-6 col-lg-6" ng-repeat="hobby in [movie, sport, food, entertainment]">
 			<div class="panel panel-success">
 				<div class="panel-heading">
-					<h3 class="panel-title" ng-bind="hobby.title"></h3>
+					<h3 class="panel-title">
+						<span ng-bind="hobby.title"></span>
+						<span class="glyphicon glyphicon-picture pull-right picture-icon" title="图集" ng-click="playPicture(hobby.title)"></span>
+					</h3>
 				</div>
 				<div class="panel-body">
 					<em ng-bind="hobby.subTitle"></em>

@@ -15,10 +15,9 @@ define([], function () {
 						restrict: "AE",
 						templateUrl: "app/common/header.html",
 						scope: {
-							toggleClassName: '@toggleClassName',
 							navList: "=",
 							activeIndex: "=",
-							jumpTip: "="
+							popoverConfig: "="
 						},
 						replace: true,
 						require: "^?navClickSwitch", //^(默认在自身寻找navClickSwitch指令，加上^则可以遍历上游指令)?(没找到指令会抛出错误，加上?则表示该指令可有可无，不会抛出错误)

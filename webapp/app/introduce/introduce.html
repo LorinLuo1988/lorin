@@ -1,3 +1,39 @@
-<div>
-	introduce
+<div id="introduce" scroller-common container-id="#introduce">
+	<div class="row">
+		<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+			<div class="panel panel-default">
+				<div class="panel-heading">
+					<h4 class="panel-title" ng-bind="baseInfo.title"></h4>
+				</div>
+				<div class="panel-body">
+					<p>
+					</p>
+				</div>
+				<table class="table table-bordered table-striped">
+					<tr ng-repeat="i in baseInfo.content track by $index">
+						<td ng-repeat="j in i" ng-bind="j"></td>
+						<td class="portrait" ng-show="$index == 0" rowspan="{{baseInfo.content.length}}">
+							<img class="pull-right" ng-src="{{baseInfo.img}}" alt=""/>
+						</td>
+					</tr>
+				</table>
+			</div>
+		</div>
+		<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+			<div class="panel panel-default">
+				<div class="panel-heading">
+					<h4 class="panel-title" ng-bind="skill.title"></h4>
+				</div>
+				<div class="panel-body">
+					<p ng-bind="skill.subTitle"></p>
+				</div>
+				<ul class="list-group">
+					<li class="list-group-item" ng-repeat="i in skill.content">
+						<span ng-bind="i.name" class="badge"></span>
+						<span ng-bind="i.description"></span>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
 </div>

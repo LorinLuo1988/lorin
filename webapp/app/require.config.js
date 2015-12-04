@@ -12,7 +12,8 @@ require.config({
 		appController: "tp.loader/controller.all",
 		bootstrap: "lib/bootstrap-3.3.5/bootstrap.min",
 		jquery: "lib/jquery/jquery-1.11.1.min",
-		scroller: "lib/scroller/scroller"
+		scroller: "lib/scroller/scroller",
+		slider: "lib/slider/slider"
 	},
 	shim: {
 		angular: {
@@ -35,6 +36,9 @@ require.config({
 			deps: ["angular"]
 		},
 		scroller: {
+			deps: ["jquery"]
+		},
+		slider: {
 			deps: ["jquery"]
 		}
 	}

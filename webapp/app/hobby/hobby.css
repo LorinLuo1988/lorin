@@ -26,3 +26,7 @@
 #hobby .music-play:hover {
 	color: green;
 }
+#hobby .picture-icon:hover {
+	cursor: pointer;
+	color: gray;
+}

@@ -1,0 +1,13 @@
+#introduce {
+	margin-top: 15px;
+}
+#introduce .badge {
+	width: 50px;
+}
+#introduce .portrait {
+	width: 137px;
+	vertical-align: middle;
+}
+#introduce .portrait img {
+	color: #f5f5f5;
+}

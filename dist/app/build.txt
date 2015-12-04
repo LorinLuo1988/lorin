@@ -42,5 +42,6 @@ tp.loader/directive.all.js
 lib/angular/angular-ui-router.js
 lib/jquery/jquery-1.11.1.min.js
 lib/scroller/scroller.js
+lib/slider/slider.js
 lib/bootstrap-3.3.5/bootstrap.min.js
 app.js
