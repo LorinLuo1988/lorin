@@ -45,8 +45,8 @@ define([], function () {
 
 								$("#slider").slider({
 									frameTime: 20,
-									animateTime: 1000,
-									intervalTime: 2000,
+									animateTime: 800,
+									intervalTime: 1800,
 									indicatorsType: "round",
 									carouselType: "single",
 									imgArr: scope.modalOptions.body

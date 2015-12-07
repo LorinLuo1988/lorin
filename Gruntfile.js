@@ -27,8 +27,8 @@ module.exports = function (grunt) {
 
 		require('glob').sync('*', {cwd: originPath}).forEach(function(path) {
 			patterns.push({
-				match: new RegExp(path.replace(dotReg, "\\."), "g"),
-				replacement: "bg1.fb10d17e.jpg"
+				match: new RegExp(path.replace(dotReg, "\\."), "g")
+				//replacement: "bg1.fb10d17e.jpg"
 			});
 		});
 

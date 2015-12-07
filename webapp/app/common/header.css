@@ -3,7 +3,7 @@ body {
 }
 #header {
 	text-align: center;
-	background-color: #5cc683;
+	background-color: rgba(103, 189, 135, 0.89);
 	font-size: 0px;
 	border-radius: 5px;
 	position: relative;

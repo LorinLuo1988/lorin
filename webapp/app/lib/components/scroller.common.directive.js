@@ -38,6 +38,22 @@ define([
 								$(scope.containerId).lorinScroller("update", {
 									backgroundColor: "#fbfbfb"
 								});
+
+								if (scope.containerId == "#education") {
+									$(".collapse:not(:first)").removeClass("in");
+
+									$(scope.containerId).lorinScroller("update", {
+										backgroundColor: "#fbfbfb"
+									});
+
+									$('#accordion').on('shown.bs.collapse', function () {
+										$(scope.containerId).lorinScroller("update");
+									});
+
+									$('#accordion').on('hidden.bs.collapse', function () {
+										$(scope.containerId).lorinScroller("update");
+									})
+								}
 							}, 50);
 						}
 					}

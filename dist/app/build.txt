@@ -3,6 +3,10 @@ common/header.css
 ----------------
 common/header.css
 
+education/education.css
+----------------
+education/education.css
+
 hobby/hobby.css
 ----------------
 hobby/hobby.css
@@ -10,6 +14,10 @@ hobby/hobby.css
 home/home.css
 ----------------
 home/home.css
+
+introduce/introduce.css
+----------------
+introduce/introduce.css
 
 app.js
 ----------------
