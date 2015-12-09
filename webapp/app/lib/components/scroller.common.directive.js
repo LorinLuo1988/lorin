@@ -39,7 +39,7 @@ define([
 									backgroundColor: "#fbfbfb"
 								});
 
-								if (scope.containerId == "#education") {
+								if (scope.containerId == "#education" || scope.containerId == "#skill") {
 									$(".collapse:not(:first)").removeClass("in");
 
 									$(scope.containerId).lorinScroller("update", {

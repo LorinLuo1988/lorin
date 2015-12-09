@@ -1,3 +1,20 @@
-<div>
-	skill
+<div id="skill" scroller-common container-id="#skill">
+	<div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+		<div ng-repeat="i in skillData" class="panel panel-default">
+			<div class="panel-heading" role="tab" id="heading{{i.englishName}}">
+				<h4 class="panel-title">
+					<a class="clearfix" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse{{i.englishName}}" aria-expanded="true" aria-controls="collapse{{i.englishName}}">
+						<span class="badge pull-right" ng-bind="i.function"></span>
+						<span class="text-muted pull-left" ng-bind="i.name"></span>
+					</a>
+				</h4>
+			</div>
+			<div id="collapse{{i.englishName}}" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="heading{{i.englishName}}">
+				<div class="panel-body text-success" ng-bind="i.title"></div>
+				<ul class="list-group">
+					<li class="list-group-item" ng-repeat="j in i.list" ng-bind="j"></li>
+				</ul>
+			</div>
+		</div>
+	</div>
 </div>

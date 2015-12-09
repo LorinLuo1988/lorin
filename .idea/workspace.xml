@@ -2,80 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c3ac14e7-d3db-4d16-b28d-4eaff709cc9b" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webapp/app/education/education.css" />
-      <change type="DELETED" beforePath="D:\lorin\learning\NHN\angularJS\lorin\dist\app\app.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\lorin\learning\NHN\angularJS\lorin\dist\app\build.txt" afterPath="" />
-      <change type="DELETED" beforePath="D:\lorin\learning\NHN\angularJS\lorin\dist\app\common\header.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\lorin\learning\NHN\angularJS\lorin\dist\app\common\modal.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\lorin\learning\NHN\angularJS\lorin\dist\app\common\scroller.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\lorin\learning\NHN\angularJS\lorin\dist\app\constant.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\lorin\learning\NHN\angularJS\lorin\dist\app\education\education.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\lorin\learning\NHN\angularJS\lorin\dist\app\hobby\hobby.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\lorin\learning\NHN\angularJS\lorin\dist\app\home\home.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\lorin\learning\NHN\angularJS\lorin\dist\app\introduce\introduce.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\lorin\learning\NHN\angularJS\lorin\dist\app\lib\requirejs\require.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\lorin\learning\NHN\angularJS\lorin\dist\app\opus\opus.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\lorin\learning\NHN\angularJS\lorin\dist\app\require.config.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\lorin\learning\NHN\angularJS\lorin\dist\app\skill\skill.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\lorin\learning\NHN\angularJS\lorin\dist\app\work\work.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\lorin\learning\NHN\angularJS\lorin\dist\img\bg1.442089dc.jpg" afterPath="" />
-      <change type="DELETED" beforePath="D:\lorin\learning\NHN\angularJS\lorin\dist\img\bg2.50a49fcb.jpg" afterPath="" />
-      <change type="DELETED" beforePath="D:\lorin\learning\NHN\angularJS\lorin\dist\img\bg3.3c67e0a2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="D:\lorin\learning\NHN\angularJS\lorin\dist\img\bg4.f90b67e4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="D:\lorin\learning\NHN\angularJS\lorin\dist\img\bg5.a31618a1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="D:\lorin\learning\NHN\angularJS\lorin\dist\img\bg6.171b11b9.jpg" afterPath="" />
-      <change type="DELETED" beforePath="D:\lorin\learning\NHN\angularJS\lorin\dist\img\bg7.90c0b215.jpg" afterPath="" />
-      <change type="DELETED" beforePath="D:\lorin\learning\NHN\angularJS\lorin\dist\img\entertainment-1.0a5969a4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="D:\lorin\learning\NHN\angularJS\lorin\dist\img\entertainment-2.c1c91f1c.jpg" afterPath="" />
-      <change type="DELETED" beforePath="D:\lorin\learning\NHN\angularJS\lorin\dist\img\entertainment-3.55b2698f.jpg" afterPath="" />
-      <change type="DELETED" beforePath="D:\lorin\learning\NHN\angularJS\lorin\dist\img\entertainment-4.beae1fd2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="D:\lorin\learning\NHN\angularJS\lorin\dist\img\food-1.ca1e2a61.jpg" afterPath="" />
-      <change type="DELETED" beforePath="D:\lorin\learning\NHN\angularJS\lorin\dist\img\food-2.e89ee11d.jpg" afterPath="" />
-      <change type="DELETED" beforePath="D:\lorin\learning\NHN\angularJS\lorin\dist\img\food-3.17220033.jpg" afterPath="" />
-      <change type="DELETED" beforePath="D:\lorin\learning\NHN\angularJS\lorin\dist\img\food-4.2db1584d.jpg" afterPath="" />
-      <change type="DELETED" beforePath="D:\lorin\learning\NHN\angularJS\lorin\dist\img\home-bg.3284e08a.jpg" afterPath="" />
-      <change type="DELETED" beforePath="D:\lorin\learning\NHN\angularJS\lorin\dist\img\movie-1.7e3a8edc.jpg" afterPath="" />
-      <change type="DELETED" beforePath="D:\lorin\learning\NHN\angularJS\lorin\dist\img\movie-2.3ed2c387.jpg" afterPath="" />
-      <change type="DELETED" beforePath="D:\lorin\learning\NHN\angularJS\lorin\dist\img\movie-3.ec475356.jpg" afterPath="" />
-      <change type="DELETED" beforePath="D:\lorin\learning\NHN\angularJS\lorin\dist\img\movie-4.b1f24f7a.jpg" afterPath="" />
-      <change type="DELETED" beforePath="D:\lorin\learning\NHN\angularJS\lorin\dist\img\sport-1.82880496.jpg" afterPath="" />
-      <change type="DELETED" beforePath="D:\lorin\learning\NHN\angularJS\lorin\dist\img\sport-2.53be3178.jpg" afterPath="" />
-      <change type="DELETED" beforePath="D:\lorin\learning\NHN\angularJS\lorin\dist\img\sport-3.df78a0df.jpg" afterPath="" />
-      <change type="DELETED" beforePath="D:\lorin\learning\NHN\angularJS\lorin\dist\img\sport-4.f392edf6.jpg" afterPath="" />
-      <change type="DELETED" beforePath="D:\lorin\learning\NHN\angularJS\lorin\dist\index.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\lorin\learning\NHN\angularJS\lorin\dist\music\冰雨.wma" afterPath="" />
-      <change type="DELETED" beforePath="D:\lorin\learning\NHN\angularJS\lorin\dist\music\一千个伤心的理由.mp3" afterPath="" />
-      <change type="DELETED" beforePath="D:\lorin\learning\NHN\angularJS\lorin\dist\music\一千个伤心的理由.wma" afterPath="" />
-      <change type="DELETED" beforePath="D:\lorin\learning\NHN\angularJS\lorin\dist\music\一路上有你.mp3" afterPath="" />
-      <change type="DELETED" beforePath="D:\lorin\learning\NHN\angularJS\lorin\dist\music\一路上有你.wma" afterPath="" />
-      <change type="DELETED" beforePath="D:\lorin\learning\NHN\angularJS\lorin\dist\music\冰雨.mp3" afterPath="" />
-      <change type="DELETED" beforePath="D:\lorin\learning\NHN\angularJS\lorin\dist\music\存在.mp3" afterPath="" />
-      <change type="DELETED" beforePath="D:\lorin\learning\NHN\angularJS\lorin\dist\music\存在.wma" afterPath="" />
-      <change type="DELETED" beforePath="D:\lorin\learning\NHN\angularJS\lorin\dist\music\当我遇上你.mp3" afterPath="" />
-      <change type="DELETED" beforePath="D:\lorin\learning\NHN\angularJS\lorin\dist\music\当我遇上你.wma" afterPath="" />
-      <change type="DELETED" beforePath="D:\lorin\learning\NHN\angularJS\lorin\dist\music\怒放的生命.mp3" afterPath="" />
-      <change type="DELETED" beforePath="D:\lorin\learning\NHN\angularJS\lorin\dist\music\怒放的生命.wma" afterPath="" />
-      <change type="DELETED" beforePath="D:\lorin\learning\NHN\angularJS\lorin\dist\music\情网.mp3" afterPath="" />
-      <change type="DELETED" beforePath="D:\lorin\learning\NHN\angularJS\lorin\dist\music\情网.wma" afterPath="" />
-      <change type="DELETED" beforePath="D:\lorin\learning\NHN\angularJS\lorin\dist\music\硬币.mp3" afterPath="" />
-      <change type="DELETED" beforePath="D:\lorin\learning\NHN\angularJS\lorin\dist\music\硬币.wma" afterPath="" />
-      <change type="DELETED" beforePath="D:\lorin\learning\NHN\angularJS\lorin\dist\music\练习.mp3" afterPath="" />
-      <change type="DELETED" beforePath="D:\lorin\learning\NHN\angularJS\lorin\dist\music\练习.wma" afterPath="" />
-      <change type="DELETED" beforePath="D:\lorin\learning\NHN\angularJS\lorin\dist\style\fonts\glyphicons-halflings-regular.448c34a5.woff2" afterPath="" />
-      <change type="DELETED" beforePath="D:\lorin\learning\NHN\angularJS\lorin\dist\style\fonts\glyphicons-halflings-regular.89889688.svg" afterPath="" />
-      <change type="DELETED" beforePath="D:\lorin\learning\NHN\angularJS\lorin\dist\style\fonts\glyphicons-halflings-regular.e18bbf61.ttf" afterPath="" />
-      <change type="DELETED" beforePath="D:\lorin\learning\NHN\angularJS\lorin\dist\style\fonts\glyphicons-halflings-regular.f4769f9b.eot" afterPath="" />
-      <change type="DELETED" beforePath="D:\lorin\learning\NHN\angularJS\lorin\dist\style\fonts\glyphicons-halflings-regular.fa277232.woff" afterPath="" />
-      <change type="DELETED" beforePath="D:\lorin\learning\NHN\angularJS\lorin\dist\style\vender.min.b8f008ab.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\lorin\learning\NHN\angularJS\lorin\webapp\img\home-bg.jpg" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webapp/app/skill/skill.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gruntfile.js" afterPath="$PROJECT_DIR$/Gruntfile.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webapp/app/education/education.controller.js" afterPath="$PROJECT_DIR$/webapp/app/education/education.controller.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webapp/app/education/education.html" afterPath="$PROJECT_DIR$/webapp/app/education/education.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webapp/app/common/header.css" afterPath="$PROJECT_DIR$/webapp/app/common/header.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webapp/index.html" afterPath="$PROJECT_DIR$/webapp/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webapp/app/introduce/introduce.controller.js" afterPath="$PROJECT_DIR$/webapp/app/introduce/introduce.controller.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webapp/app/lib/components/modal.directive.js" afterPath="$PROJECT_DIR$/webapp/app/lib/components/modal.directive.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webapp/app/lib/components/scroller.common.directive.js" afterPath="$PROJECT_DIR$/webapp/app/lib/components/scroller.common.directive.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webapp/app/skill/skill.controller.js" afterPath="$PROJECT_DIR$/webapp/app/skill/skill.controller.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webapp/app/skill/skill.html" afterPath="$PROJECT_DIR$/webapp/app/skill/skill.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="lorin.iws" />
@@ -103,92 +35,38 @@
       <file leaf-file-name="scroller.common.directive.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/webapp/app/lib/components/scroller.common.directive.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="914" max-vertical-offset="2130">
-              <caret line="51" column="0" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="450" max-vertical-offset="2130">
+              <caret line="44" column="58" selection-start-line="44" selection-start-column="58" selection-end-line="44" selection-end-column="58" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="education.controller.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/webapp/app/education/education.controller.js">
+      <file leaf-file-name="skill.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/webapp/app/skill/skill.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="44" max-vertical-offset="900">
-              <caret line="13" column="20" selection-start-line="13" selection-start-column="20" selection-end-line="13" selection-end-column="20" />
-              <folding>
-                <element signature="e#257#733#0" expanded="false" />
-                <element signature="e#740#1086#0" expanded="false" />
-                <element signature="e#1093#1461#0" expanded="false" />
-                <element signature="e#1468#1789#0" expanded="false" />
-                <element signature="e#1796#2672#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="education.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/webapp/app/education/education.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-3.367347" vertical-offset="0" max-vertical-offset="600">
-              <caret line="11" column="90" selection-start-line="11" selection-start-column="82" selection-end-line="11" selection-end-column="90" />
-              <folding>
-                <element signature="n#div#1;n#div#0;n#div#0;n#div#0;n#!!top" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Gruntfile.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Gruntfile.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.9305136" vertical-offset="344" max-vertical-offset="3450">
-              <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
-              <folding>
-                <element signature="e#354#412#0" expanded="false" />
-                <element signature="e#977#1601#0" expanded="false" />
-                <element signature="e#2089#3485#0" expanded="false" />
-                <element signature="e#2099#2232#0" expanded="false" />
-                <element signature="e#2241#2773#0" expanded="false" />
-                <element signature="e#2783#2887#0" expanded="false" />
-                <element signature="e#3496#4096#0" expanded="false" />
-                <element signature="e#4115#4274#0" expanded="false" />
-                <element signature="e#4286#4551#0" expanded="false" />
-                <element signature="e#4564#4714#0" expanded="false" />
-                <element signature="e#4729#5338#0" expanded="false" />
-                <element signature="e#5351#6683#0" expanded="false" />
-                <element signature="e#5666#5961#0" expanded="false" />
-                <element signature="e#5972#6284#0" expanded="false" />
-                <element signature="e#6695#6833#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="introduce.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/webapp/app/introduce/introduce.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="1320">
-              <caret line="0" column="61" selection-start-line="0" selection-start-column="20" selection-end-line="0" selection-end-column="61" />
+            <state vertical-scroll-proportion="-14.615385" vertical-offset="0" max-vertical-offset="750">
+              <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/webapp/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-6.8974357" vertical-offset="151" max-vertical-offset="1050">
-              <caret line="14" column="27" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="education.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/webapp/app/education/education.css">
+      <file leaf-file-name="skill.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/webapp/app/skill/skill.css">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="240">
               <caret line="2" column="1" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="skill.controller.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/webapp/app/skill/skill.controller.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.4749125" vertical-offset="1663" max-vertical-offset="2520">
+              <caret line="69" column="50" selection-start-line="69" selection-start-column="50" selection-end-line="69" selection-end-column="50" />
               <folding />
             </state>
           </provider>
@@ -202,15 +80,12 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/dist/app/all.js" />
-        <option value="$PROJECT_DIR$/dist/style/vender.min.b6f60643.css" />
         <option value="$PROJECT_DIR$/dist/style/vender.min.css" />
         <option value="$PROJECT_DIR$/webapp/app/main.js" />
         <option value="$PROJECT_DIR$/dist/app/home/home.html" />
         <option value="$PROJECT_DIR$/dist/style/vender.min.c44b1be5.css" />
         <option value="$PROJECT_DIR$/webapp/lib/components/nav.click.directive.js" />
         <option value="$PROJECT_DIR$/webapp/app/opus/opus.html" />
-        <option value="$PROJECT_DIR$/webapp/app/skill/skill.html" />
         <option value="$PROJECT_DIR$/webapp/app/work/work.html" />
         <option value="$PROJECT_DIR$/dist/app/common/header.html" />
         <option value="$PROJECT_DIR$/webapp/lib/components/scroller.directive.js" />
@@ -234,7 +109,6 @@
         <option value="$PROJECT_DIR$/webapp/app/lib/slider/slider.js" />
         <option value="$PROJECT_DIR$/webapp/app/hobby/hobby.controller.js" />
         <option value="$PROJECT_DIR$/webapp/app/common/modal.html" />
-        <option value="$PROJECT_DIR$/webapp/app/hobby/hobby.html" />
         <option value="$PROJECT_DIR$/webapp/app/lib/components/popover.directive.js" />
         <option value="$PROJECT_DIR$/webapp/app/common/header.html" />
         <option value="$PROJECT_DIR$/webapp/app/lib/components/header.directive.js" />
@@ -248,11 +122,15 @@
         <option value="$PROJECT_DIR$/webapp/app/introduce/introduce.controller.js" />
         <option value="$PROJECT_DIR$/webapp/app/home/route.js" />
         <option value="$PROJECT_DIR$/webapp/app/education/education.css" />
-        <option value="$PROJECT_DIR$/webapp/index.html" />
         <option value="$PROJECT_DIR$/webapp/app/education/education.controller.js" />
-        <option value="$PROJECT_DIR$/webapp/app/lib/components/scroller.common.directive.js" />
         <option value="$PROJECT_DIR$/webapp/app/education/education.html" />
         <option value="$PROJECT_DIR$/Gruntfile.js" />
+        <option value="$PROJECT_DIR$/webapp/index.html" />
+        <option value="$PROJECT_DIR$/webapp/app/hobby/hobby.html" />
+        <option value="$PROJECT_DIR$/webapp/app/skill/skill.css" />
+        <option value="$PROJECT_DIR$/webapp/app/lib/components/scroller.common.directive.js" />
+        <option value="$PROJECT_DIR$/webapp/app/skill/skill.html" />
+        <option value="$PROJECT_DIR$/webapp/app/skill/skill.controller.js" />
       </list>
     </option>
   </component>
@@ -291,6 +169,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -323,14 +202,97 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lorin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lorin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lorin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lorin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="skill" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lorin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lorin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lorin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lorin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hobby" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../slider/index.html" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
@@ -428,15 +390,14 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21603563" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.21603563" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32850778" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32739422" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17702845" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17702845" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -444,6 +405,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32962137" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32739422" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Grunt" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24026696" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -494,11 +456,34 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/webapp/app/introduce/introduce.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1320">
+          <caret line="0" column="61" selection-start-line="0" selection-start-column="20" selection-end-line="0" selection-end-column="61" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webapp/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="151" max-vertical-offset="1050">
+          <caret line="14" column="27" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webapp/app/education/education.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="60" max-vertical-offset="240">
+          <caret line="2" column="1" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/webapp/app/lib/requirejs/require.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.27231467" vertical-offset="0" max-vertical-offset="63150">
           <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -506,9 +491,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.72357726" vertical-offset="185" max-vertical-offset="3540">
           <caret line="21" column="23" selection-start-line="21" selection-start-column="17" selection-end-line="21" selection-end-column="23" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -530,7 +512,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.55235904" vertical-offset="0" max-vertical-offset="869">
           <caret line="16" column="1" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -545,7 +526,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.33294392" vertical-offset="10425" max-vertical-offset="18300">
           <caret line="357" column="0" selection-start-line="357" selection-start-column="0" selection-end-line="358" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -567,25 +547,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="6240">
           <caret line="10" column="27" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="27" />
-          <folding>
-            <element signature="e#1102#1230#0" expanded="false" />
-            <element signature="e#1414#1709#0" expanded="false" />
-            <element signature="e#1749#2101#0" expanded="false" />
-            <element signature="e#2244#3854#0" expanded="false" />
-            <element signature="e#3918#7463#0" expanded="false" />
-            <element signature="e#9430#9893#0" expanded="false" />
-            <element signature="e#9956#10952#0" expanded="false" />
-            <element signature="e#11009#11820#0" expanded="false" />
-            <element signature="e#11876#13997#0" expanded="false" />
-            <element signature="e#14069#17384#0" expanded="false" />
-            <element signature="e#17672#17886#0" expanded="false" />
-            <element signature="e#19141#19942#0" expanded="false" />
-            <element signature="e#19999#21022#0" expanded="false" />
-            <element signature="e#21070#21779#0" expanded="false" />
-            <element signature="e#21833#21876#0" expanded="false" />
-            <element signature="e#22410#22499#0" expanded="false" />
-            <element signature="e#22534#22633#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -593,7 +554,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="780">
           <caret line="9" column="27" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -601,7 +561,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-13.615385" vertical-offset="1059" max-vertical-offset="1980">
           <caret line="53" column="71" selection-start-line="53" selection-start-column="71" selection-end-line="53" selection-end-column="73" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -609,7 +568,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.7692308" vertical-offset="0" max-vertical-offset="270">
           <caret line="1" column="38" selection-start-line="1" selection-start-column="30" selection-end-line="1" selection-end-column="38" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -617,10 +575,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.44827586" vertical-offset="150" max-vertical-offset="1020">
           <caret line="26" column="30" selection-start-line="26" selection-start-column="20" selection-end-line="26" selection-end-column="30" />
-          <folding>
-            <element signature="e#315#747#0" expanded="false" />
-            <element signature="e#903#1174#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -628,7 +582,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.41426927" vertical-offset="90" max-vertical-offset="1500">
           <caret line="15" column="31" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -636,7 +589,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.5257009" vertical-offset="0" max-vertical-offset="3810">
           <caret line="17" column="19" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -644,7 +596,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-10.743589" vertical-offset="481" max-vertical-offset="1440">
           <caret line="30" column="29" selection-start-line="30" selection-start-column="29" selection-end-line="30" selection-end-column="29" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -652,7 +603,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.58573073" vertical-offset="751" max-vertical-offset="1710">
           <caret line="42" column="12" selection-start-line="42" selection-start-column="12" selection-end-line="42" selection-end-column="12" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -660,24 +610,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.24050634" vertical-offset="271" max-vertical-offset="1230">
           <caret line="137" column="54" selection-start-line="137" selection-start-column="54" selection-end-line="137" selection-end-column="54" />
-          <folding>
-            <element signature="e#94#833#0" expanded="false" />
-            <element signature="e#882#2013#0" expanded="false" />
-            <element signature="e#2056#2439#0" expanded="false" />
-            <element signature="e#2485#2575#0" expanded="false" />
-            <element signature="e#2622#3215#0" expanded="false" />
-            <element signature="e#3266#3632#0" expanded="false" />
-            <element signature="e#3686#3868#0" expanded="false" />
-            <element signature="e#3922#4136#0" expanded="false" />
-            <element signature="e#4189#4378#0" expanded="false" />
-            <element signature="e#4431#4621#0" expanded="false" />
-            <element signature="e#4670#5254#0" expanded="false" />
-            <element signature="e#5301#5547#0" expanded="false" />
-            <element signature="e#5594#7677#0" expanded="false" />
-            <element signature="e#7729#9796#0" expanded="false" />
-            <element signature="e#9845#10547#0" expanded="false" />
-            <element signature="e#10563#10965#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -685,7 +617,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.40391678" vertical-offset="0" max-vertical-offset="840">
           <caret line="11" column="117" selection-start-line="11" selection-start-column="117" selection-end-line="11" selection-end-column="117" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -694,24 +625,6 @@
         <state vertical-scroll-proportion="0.5060241" vertical-offset="2070" max-vertical-offset="3120">
           <caret line="83" column="40" selection-start-line="83" selection-start-column="8" selection-end-line="83" selection-end-column="40" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webapp/app/hobby/hobby.controller.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="607" max-vertical-offset="1740">
-          <caret line="50" column="32" selection-start-line="50" selection-start-column="32" selection-end-line="50" selection-end-column="32" />
-          <folding>
-            <element signature="e#292#1059#0" expanded="false" />
-            <element signature="e#561#1009#0" expanded="false" />
-            <element signature="e#1256#1459#0" expanded="false" />
-            <element signature="e#1480#1642#0" expanded="false" />
-            <element signature="e#1672#1815#0" expanded="false" />
-            <element signature="e#1843#1938#0" expanded="false" />
-            <element signature="e#271#4470#0" expanded="false" />
-            <element signature="e#2355#2957#0" expanded="false" />
-            <element signature="e#3001#3298#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -727,7 +640,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.33256617" vertical-offset="29651" max-vertical-offset="144030">
           <caret line="998" column="0" selection-start-line="998" selection-start-column="0" selection-end-line="998" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -735,9 +647,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="150" max-vertical-offset="1260">
           <caret line="26" column="55" selection-start-line="26" selection-start-column="55" selection-end-line="26" selection-end-column="55" />
-          <folding>
-            <element signature="e#0#41#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -745,7 +654,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="314" max-vertical-offset="1380">
           <caret line="18" column="41" selection-start-line="18" selection-start-column="41" selection-end-line="18" selection-end-column="41" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -753,20 +661,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-2.3076923" vertical-offset="0" max-vertical-offset="480">
           <caret line="3" column="95" selection-start-line="3" selection-start-column="84" selection-end-line="3" selection-end-column="95" />
-          <folding>
-            <marker date="1449216129492" expanded="true" signature="-1:-1" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webapp/app/hobby/hobby.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.0769231" vertical-offset="0" max-vertical-offset="450">
-          <caret line="51" column="10" selection-start-line="51" selection-start-column="10" selection-end-line="51" selection-end-column="10" />
-          <folding>
-            <element signature="n#div#0;n#div#0;n#div#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#div#0;n#div#0;n#!!top" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -774,11 +669,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-6.016949" vertical-offset="245" max-vertical-offset="4080">
           <caret line="20" column="57" selection-start-line="20" selection-start-column="57" selection-end-line="20" selection-end-column="57" />
-          <folding>
-            <element signature="e#1478#3133#0" expanded="false" />
-            <element signature="e#3171#6089#0" expanded="false" />
-            <element signature="e#6129#6942#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -786,7 +676,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1110">
           <caret line="1" column="7" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="7" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -794,7 +683,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="540">
           <caret line="11" column="18" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="18" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -802,7 +690,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2250">
           <caret line="8" column="23" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -810,7 +697,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2040">
           <caret line="11" column="12" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -828,16 +714,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="1.8411216" vertical-offset="494" max-vertical-offset="2520">
           <caret line="142" column="22" selection-start-line="142" selection-start-column="22" selection-end-line="142" selection-end-column="22" />
-          <folding>
-            <element signature="e#0#42#0" expanded="false" />
-            <element signature="e#346#1231#0" expanded="false" />
-            <element signature="e#1264#2061#0" expanded="false" />
-            <element signature="e#1278#1336#0" expanded="false" />
-            <element signature="e#1349#1428#0" expanded="false" />
-            <element signature="e#1443#1963#0" expanded="false" />
-            <element signature="e#3797#4309#0" expanded="false" />
-            <element signature="e#3855#4303#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -845,7 +721,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="90" max-vertical-offset="1500">
           <caret line="23" column="58" selection-start-line="23" selection-start-column="58" selection-end-line="23" selection-end-column="58" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -853,9 +728,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="630" max-vertical-offset="2160">
           <caret line="37" column="0" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#42#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -863,23 +735,54 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.55120826" vertical-offset="91" max-vertical-offset="960">
           <caret line="19" column="30" selection-start-line="19" selection-start-column="30" selection-end-line="19" selection-end-column="30" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/webapp/app/education/education.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="240">
+        <state vertical-scroll-proportion="0.06896552" vertical-offset="0" max-vertical-offset="870">
           <caret line="2" column="1" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
           <folding />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Gruntfile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.92990655" vertical-offset="314" max-vertical-offset="3420">
+          <caret line="38" column="24" selection-start-line="38" selection-start-column="24" selection-end-line="38" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/webapp/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.8974357" vertical-offset="151" max-vertical-offset="1050">
-          <caret line="14" column="27" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
+        <state vertical-scroll-proportion="0.35980746" vertical-offset="151" max-vertical-offset="1080">
+          <caret line="15" column="48" selection-start-line="15" selection-start-column="48" selection-end-line="15" selection-end-column="48" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webapp/app/education/education.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.036674816" vertical-offset="0" max-vertical-offset="818">
+          <caret line="1" column="31" selection-start-line="1" selection-start-column="31" selection-end-line="1" selection-end-column="31" />
+          <folding>
+            <element signature="n#div#0;n#div#0;n#!!top" expanded="false" />
+            <element signature="n#div#1;n#div#0;n#div#0;n#div#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webapp/app/education/education.controller.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.38506418" vertical-offset="30" max-vertical-offset="900">
+          <caret line="12" column="12" selection-start-line="12" selection-start-column="12" selection-end-line="102" selection-end-column="18" />
+          <folding>
+            <element signature="e#257#733#0" expanded="false" />
+            <element signature="e#740#1086#0" expanded="false" />
+            <element signature="e#1093#1461#0" expanded="false" />
+            <element signature="e#1468#1789#0" expanded="false" />
+            <element signature="e#1796#2672#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -891,59 +794,51 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/webapp/app/education/education.controller.js">
+    <entry file="file://$PROJECT_DIR$/webapp/app/hobby/hobby.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="44" max-vertical-offset="900">
-          <caret line="13" column="20" selection-start-line="13" selection-start-column="20" selection-end-line="13" selection-end-column="20" />
-          <folding>
-            <element signature="e#257#733#0" expanded="false" />
-            <element signature="e#740#1086#0" expanded="false" />
-            <element signature="e#1093#1461#0" expanded="false" />
-            <element signature="e#1468#1789#0" expanded="false" />
-            <element signature="e#1796#2672#0" expanded="false" />
-          </folding>
+        <state vertical-scroll-proportion="0.63325185" vertical-offset="1042" max-vertical-offset="1860">
+          <caret line="52" column="49" selection-start-line="52" selection-start-column="49" selection-end-line="52" selection-end-column="49" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/webapp/app/lib/components/scroller.common.directive.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="914" max-vertical-offset="2130">
-          <caret line="51" column="0" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="810" max-vertical-offset="2130">
+          <caret line="44" column="58" selection-start-line="44" selection-start-column="58" selection-end-line="44" selection-end-column="58" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/webapp/app/education/education.html">
+    <entry file="file://$PROJECT_DIR$/webapp/app/hobby/hobby.controller.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.367347" vertical-offset="0" max-vertical-offset="600">
-          <caret line="11" column="90" selection-start-line="11" selection-start-column="82" selection-end-line="11" selection-end-column="90" />
-          <folding>
-            <element signature="n#div#1;n#div#0;n#div#0;n#div#0;n#!!top" expanded="false" />
-          </folding>
+        <state vertical-scroll-proportion="-0.29521587" vertical-offset="4903" max-vertical-offset="5760">
+          <caret line="155" column="47" selection-start-line="155" selection-start-column="47" selection-end-line="155" selection-end-column="47" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Gruntfile.js">
+    <entry file="file://$PROJECT_DIR$/webapp/app/skill/skill.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.9305136" vertical-offset="344" max-vertical-offset="3450">
-          <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
-          <folding>
-            <element signature="e#354#412#0" expanded="false" />
-            <element signature="e#977#1601#0" expanded="false" />
-            <element signature="e#2089#3485#0" expanded="false" />
-            <element signature="e#2099#2232#0" expanded="false" />
-            <element signature="e#2241#2773#0" expanded="false" />
-            <element signature="e#2783#2887#0" expanded="false" />
-            <element signature="e#3496#4096#0" expanded="false" />
-            <element signature="e#4115#4274#0" expanded="false" />
-            <element signature="e#4286#4551#0" expanded="false" />
-            <element signature="e#4564#4714#0" expanded="false" />
-            <element signature="e#4729#5338#0" expanded="false" />
-            <element signature="e#5351#6683#0" expanded="false" />
-            <element signature="e#5666#5961#0" expanded="false" />
-            <element signature="e#5972#6284#0" expanded="false" />
-            <element signature="e#6695#6833#0" expanded="false" />
-          </folding>
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="240">
+          <caret line="2" column="1" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webapp/app/skill/skill.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-14.615385" vertical-offset="0" max-vertical-offset="750">
+          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webapp/app/skill/skill.controller.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4749125" vertical-offset="1663" max-vertical-offset="2520">
+          <caret line="69" column="50" selection-start-line="69" selection-start-column="50" selection-end-line="69" selection-end-column="50" />
+          <folding />
         </state>
       </provider>
     </entry>
