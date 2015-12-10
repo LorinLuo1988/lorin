@@ -65,9 +65,10 @@ define([
 						title: "提高开发效率",
 						list: [
 							"1. 能够熟练使用grunt进行前端项目的打包(css合并，js压缩合并等)",
-							"2. 熟练使用webstorm等进行编码开发",
-							"3. 熟练使用浏览器调试工具进行调试(偏向于用chrome的Developer Tools)",
-							"4. 能够使用photoshop进行简单的切图操作"
+							"2. 熟练使用git和svn等版本管理工具进行团队协作开发",
+							"3. 熟练使用webstorm等进行编码开发",
+							"4. 熟练使用浏览器调试工具进行调试(偏向于用chrome的Developer Tools)",
+							"5. 能够使用photoshop进行简单的切图操作"
 						]
 					}
 				];
