@@ -71,6 +71,22 @@ define([
 						]
 					}
 				];
+
+				$scope.blog = {
+					name: "blog",
+					link: "http://my.oschina.net/u/1992917/blog"
+				};
+
+				$scope.github = {
+					name: "github",
+					link: "https://github.com/lorin19881101?tab=repositories"
+				};
+
+				$scope.websiteIntroduce = {
+					title: "本站简介",
+					link: "https://github.com/lorin19881101/lorin",
+					introduce: "本站采用angularjs来搭建前端框架，requirejs来进行模块化开发，并加入了自己写的scroller和slider两个插件，采用了bootstrap的一些样式和js插件,使用了jquery库和pace.js插件，大量编写自定义directive来简化模板和实现复用。"
+				};
 			}
 		]);
 	};

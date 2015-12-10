@@ -2,85 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c3ac14e7-d3db-4d16-b28d-4eaff709cc9b" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webapp/img/iSing.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webapp/img/scroller.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webapp/app/opus/opus.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webapp/app/work/work.css" />
-      <change type="DELETED" beforePath="D:\lorin\learning\NHN\angularJS\lorin\dist\app\app.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\lorin\learning\NHN\angularJS\lorin\dist\app\build.txt" afterPath="" />
-      <change type="DELETED" beforePath="D:\lorin\learning\NHN\angularJS\lorin\dist\app\common\header.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\lorin\learning\NHN\angularJS\lorin\dist\app\common\modal.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\lorin\learning\NHN\angularJS\lorin\dist\app\common\scroller.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\lorin\learning\NHN\angularJS\lorin\dist\app\constant.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\lorin\learning\NHN\angularJS\lorin\dist\app\education\education.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\lorin\learning\NHN\angularJS\lorin\dist\app\hobby\hobby.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\lorin\learning\NHN\angularJS\lorin\dist\app\home\home.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\lorin\learning\NHN\angularJS\lorin\dist\app\introduce\introduce.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\lorin\learning\NHN\angularJS\lorin\dist\app\lib\requirejs\require.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\lorin\learning\NHN\angularJS\lorin\dist\app\opus\opus.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\lorin\learning\NHN\angularJS\lorin\dist\app\require.config.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\lorin\learning\NHN\angularJS\lorin\dist\app\skill\skill.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\lorin\learning\NHN\angularJS\lorin\dist\app\work\work.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\lorin\learning\NHN\angularJS\lorin\dist\img\bg1.442089dc.jpg" afterPath="" />
-      <change type="DELETED" beforePath="D:\lorin\learning\NHN\angularJS\lorin\dist\img\bg2.50a49fcb.jpg" afterPath="" />
-      <change type="DELETED" beforePath="D:\lorin\learning\NHN\angularJS\lorin\dist\img\bg3.3c67e0a2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="D:\lorin\learning\NHN\angularJS\lorin\dist\img\bg4.f90b67e4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="D:\lorin\learning\NHN\angularJS\lorin\dist\img\bg5.a31618a1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="D:\lorin\learning\NHN\angularJS\lorin\dist\img\bg6.171b11b9.jpg" afterPath="" />
-      <change type="DELETED" beforePath="D:\lorin\learning\NHN\angularJS\lorin\dist\img\bg7.90c0b215.jpg" afterPath="" />
-      <change type="DELETED" beforePath="D:\lorin\learning\NHN\angularJS\lorin\dist\img\entertainment-1.0a5969a4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="D:\lorin\learning\NHN\angularJS\lorin\dist\img\entertainment-2.c1c91f1c.jpg" afterPath="" />
-      <change type="DELETED" beforePath="D:\lorin\learning\NHN\angularJS\lorin\dist\img\entertainment-3.55b2698f.jpg" afterPath="" />
-      <change type="DELETED" beforePath="D:\lorin\learning\NHN\angularJS\lorin\dist\img\entertainment-4.beae1fd2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="D:\lorin\learning\NHN\angularJS\lorin\dist\img\food-1.ca1e2a61.jpg" afterPath="" />
-      <change type="DELETED" beforePath="D:\lorin\learning\NHN\angularJS\lorin\dist\img\food-2.e89ee11d.jpg" afterPath="" />
-      <change type="DELETED" beforePath="D:\lorin\learning\NHN\angularJS\lorin\dist\img\food-3.17220033.jpg" afterPath="" />
-      <change type="DELETED" beforePath="D:\lorin\learning\NHN\angularJS\lorin\dist\img\food-4.2db1584d.jpg" afterPath="" />
-      <change type="DELETED" beforePath="D:\lorin\learning\NHN\angularJS\lorin\dist\img\home-bg-1.9c04a5e6.jpg" afterPath="" />
-      <change type="DELETED" beforePath="D:\lorin\learning\NHN\angularJS\lorin\dist\img\lorin.0cd7abf1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="D:\lorin\learning\NHN\angularJS\lorin\dist\img\movie-1.7e3a8edc.jpg" afterPath="" />
-      <change type="DELETED" beforePath="D:\lorin\learning\NHN\angularJS\lorin\dist\img\movie-2.3ed2c387.jpg" afterPath="" />
-      <change type="DELETED" beforePath="D:\lorin\learning\NHN\angularJS\lorin\dist\img\movie-3.ec475356.jpg" afterPath="" />
-      <change type="DELETED" beforePath="D:\lorin\learning\NHN\angularJS\lorin\dist\img\movie-4.b1f24f7a.jpg" afterPath="" />
-      <change type="DELETED" beforePath="D:\lorin\learning\NHN\angularJS\lorin\dist\img\sport-1.82880496.jpg" afterPath="" />
-      <change type="DELETED" beforePath="D:\lorin\learning\NHN\angularJS\lorin\dist\img\sport-2.53be3178.jpg" afterPath="" />
-      <change type="DELETED" beforePath="D:\lorin\learning\NHN\angularJS\lorin\dist\img\sport-3.df78a0df.jpg" afterPath="" />
-      <change type="DELETED" beforePath="D:\lorin\learning\NHN\angularJS\lorin\dist\img\sport-4.f392edf6.jpg" afterPath="" />
-      <change type="DELETED" beforePath="D:\lorin\learning\NHN\angularJS\lorin\dist\index.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\lorin\learning\NHN\angularJS\lorin\dist\music\冰雨.wma" afterPath="" />
-      <change type="DELETED" beforePath="D:\lorin\learning\NHN\angularJS\lorin\dist\music\一千个伤心的理由.mp3" afterPath="" />
-      <change type="DELETED" beforePath="D:\lorin\learning\NHN\angularJS\lorin\dist\music\一千个伤心的理由.wma" afterPath="" />
-      <change type="DELETED" beforePath="D:\lorin\learning\NHN\angularJS\lorin\dist\music\一路上有你.mp3" afterPath="" />
-      <change type="DELETED" beforePath="D:\lorin\learning\NHN\angularJS\lorin\dist\music\一路上有你.wma" afterPath="" />
-      <change type="DELETED" beforePath="D:\lorin\learning\NHN\angularJS\lorin\dist\music\冰雨.mp3" afterPath="" />
-      <change type="DELETED" beforePath="D:\lorin\learning\NHN\angularJS\lorin\dist\music\存在.mp3" afterPath="" />
-      <change type="DELETED" beforePath="D:\lorin\learning\NHN\angularJS\lorin\dist\music\存在.wma" afterPath="" />
-      <change type="DELETED" beforePath="D:\lorin\learning\NHN\angularJS\lorin\dist\music\当我遇上你.mp3" afterPath="" />
-      <change type="DELETED" beforePath="D:\lorin\learning\NHN\angularJS\lorin\dist\music\当我遇上你.wma" afterPath="" />
-      <change type="DELETED" beforePath="D:\lorin\learning\NHN\angularJS\lorin\dist\music\怒放的生命.mp3" afterPath="" />
-      <change type="DELETED" beforePath="D:\lorin\learning\NHN\angularJS\lorin\dist\music\怒放的生命.wma" afterPath="" />
-      <change type="DELETED" beforePath="D:\lorin\learning\NHN\angularJS\lorin\dist\music\情网.mp3" afterPath="" />
-      <change type="DELETED" beforePath="D:\lorin\learning\NHN\angularJS\lorin\dist\music\情网.wma" afterPath="" />
-      <change type="DELETED" beforePath="D:\lorin\learning\NHN\angularJS\lorin\dist\music\硬币.mp3" afterPath="" />
-      <change type="DELETED" beforePath="D:\lorin\learning\NHN\angularJS\lorin\dist\music\硬币.wma" afterPath="" />
-      <change type="DELETED" beforePath="D:\lorin\learning\NHN\angularJS\lorin\dist\music\练习.mp3" afterPath="" />
-      <change type="DELETED" beforePath="D:\lorin\learning\NHN\angularJS\lorin\dist\music\练习.wma" afterPath="" />
-      <change type="DELETED" beforePath="D:\lorin\learning\NHN\angularJS\lorin\dist\style\fonts\glyphicons-halflings-regular.448c34a5.woff2" afterPath="" />
-      <change type="DELETED" beforePath="D:\lorin\learning\NHN\angularJS\lorin\dist\style\fonts\glyphicons-halflings-regular.89889688.svg" afterPath="" />
-      <change type="DELETED" beforePath="D:\lorin\learning\NHN\angularJS\lorin\dist\style\fonts\glyphicons-halflings-regular.e18bbf61.ttf" afterPath="" />
-      <change type="DELETED" beforePath="D:\lorin\learning\NHN\angularJS\lorin\dist\style\fonts\glyphicons-halflings-regular.f4769f9b.eot" afterPath="" />
-      <change type="DELETED" beforePath="D:\lorin\learning\NHN\angularJS\lorin\dist\style\fonts\glyphicons-halflings-regular.fa277232.woff" afterPath="" />
-      <change type="DELETED" beforePath="D:\lorin\learning\NHN\angularJS\lorin\dist\style\vender.min.d6d20275.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\lorin\learning\NHN\angularJS\lorin\svg.html" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webapp/index.html" afterPath="$PROJECT_DIR$/webapp/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webapp/app/opus/opus.controller.js" afterPath="$PROJECT_DIR$/webapp/app/opus/opus.controller.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webapp/app/opus/opus.html" afterPath="$PROJECT_DIR$/webapp/app/opus/opus.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webapp/app/lib/components/scroller.common.directive.js" afterPath="$PROJECT_DIR$/webapp/app/lib/components/scroller.common.directive.js" />
+      <change type="DELETED" beforePath="D:\lorin\learning\NHN\angularJS\lorin\dist\style\vender.min.a9db52a1.css" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/app/app.js" afterPath="$PROJECT_DIR$/dist/app/app.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/index.html" afterPath="$PROJECT_DIR$/dist/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webapp/app/skill/skill.controller.js" afterPath="$PROJECT_DIR$/webapp/app/skill/skill.controller.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webapp/app/skill/skill.css" afterPath="$PROJECT_DIR$/webapp/app/skill/skill.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/app/skill/skill.html" afterPath="$PROJECT_DIR$/dist/app/skill/skill.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webapp/app/skill/skill.html" afterPath="$PROJECT_DIR$/webapp/app/skill/skill.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webapp/app/work/work.controller.js" afterPath="$PROJECT_DIR$/webapp/app/work/work.controller.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webapp/app/work/work.html" afterPath="$PROJECT_DIR$/webapp/app/work/work.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="lorin.iws" />
@@ -105,81 +33,36 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="home.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/webapp/app/home/home.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0" vertical-offset="90" max-vertical-offset="270">
-              <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/webapp/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-3.0769231" vertical-offset="0" max-vertical-offset="1140">
-              <caret line="4" column="24" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/dist/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.18867925" vertical-offset="0" max-vertical-offset="720">
-              <caret line="4" column="24" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="header.controller.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/webapp/app/common/header.controller.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="540" max-vertical-offset="5280">
-              <caret line="38" column="34" selection-start-line="38" selection-start-column="34" selection-end-line="38" selection-end-column="34" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="opus.controller.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/webapp/app/opus/opus.controller.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="181" max-vertical-offset="1320">
-              <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Gruntfile.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Gruntfile.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="639" max-vertical-offset="10560">
-              <caret line="33" column="33" selection-start-line="33" selection-start-column="32" selection-end-line="33" selection-end-column="33" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="skill.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/webapp/app/skill/skill.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-7.1025643" vertical-offset="23" max-vertical-offset="840">
-              <caret line="10" column="18" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
+            <state vertical-scroll-proportion="-14.461538" vertical-offset="276" max-vertical-offset="1140">
+              <caret line="28" column="16" selection-start-line="28" selection-start-column="16" selection-end-line="28" selection-end-column="16" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="opus.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/webapp/app/opus/opus.html">
+      <file leaf-file-name="skill.controller.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/webapp/app/skill/skill.controller.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="300" max-vertical-offset="570">
-              <caret line="10" column="18" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
+            <state vertical-scroll-proportion="0.66588783" vertical-offset="0" max-vertical-offset="1350">
+              <caret line="74" column="27" selection-start-line="74" selection-start-column="23" selection-end-line="74" selection-end-column="27" />
+              <folding>
+                <element signature="e#249#502#0" expanded="false" />
+                <element signature="e#509#966#0" expanded="false" />
+                <element signature="e#973#1441#0" expanded="false" />
+                <element signature="e#1448#1742#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="skill.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/webapp/app/skill/skill.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="420">
+              <caret line="6" column="19" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
               <folding />
             </state>
           </provider>
@@ -230,7 +113,6 @@
         <option value="$PROJECT_DIR$/webapp/app/education/education.html" />
         <option value="$PROJECT_DIR$/Gruntfile.js" />
         <option value="$PROJECT_DIR$/webapp/app/hobby/hobby.html" />
-        <option value="$PROJECT_DIR$/webapp/app/skill/skill.controller.js" />
         <option value="$PROJECT_DIR$/webapp/app/work/work.css" />
         <option value="$PROJECT_DIR$/webapp/app/lib/components/scroller.common.directive.js" />
         <option value="$PROJECT_DIR$/webapp/app/work/work.html" />
@@ -240,10 +122,11 @@
         <option value="$PROJECT_DIR$/webapp/app/home/home.html" />
         <option value="$PROJECT_DIR$/webapp/app/opus/opus.controller.js" />
         <option value="$PROJECT_DIR$/webapp/app/common/header.controller.js" />
-        <option value="$PROJECT_DIR$/webapp/app/skill/skill.css" />
-        <option value="$PROJECT_DIR$/webapp/app/skill/skill.html" />
         <option value="$PROJECT_DIR$/webapp/index.html" />
         <option value="$PROJECT_DIR$/dist/index.html" />
+        <option value="$PROJECT_DIR$/webapp/app/skill/skill.css" />
+        <option value="$PROJECT_DIR$/webapp/app/skill/skill.controller.js" />
+        <option value="$PROJECT_DIR$/webapp/app/skill/skill.html" />
       </list>
     </option>
   </component>
@@ -311,7 +194,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="dist" />
+              <option name="myItemId" value="webapp" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -325,11 +208,33 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="dist" />
+              <option name="myItemId" value="webapp" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="img" />
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lorin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lorin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="skill" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -437,14 +342,16 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21603563" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.21603563" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32850778" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17702845" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17702845" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32962137" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -452,10 +359,8 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32739422" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Grunt" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24026696" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout>
@@ -503,13 +408,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/webapp/style/common.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.55235904" vertical-offset="0" max-vertical-offset="869">
-          <caret line="16" column="1" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/webapp/app/constant.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="870">
@@ -733,17 +631,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/webapp/app/skill/skill.controller.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="5" max-vertical-offset="870">
-          <caret line="43" column="20" selection-start-line="43" selection-start-column="20" selection-end-line="43" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/webapp/app/work/work.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="869">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -809,7 +701,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/webapp/app/opus/opus.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="300" max-vertical-offset="570">
+        <state vertical-scroll-proportion="0.4716981" vertical-offset="0" max-vertical-offset="636">
           <caret line="10" column="18" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
           <folding />
         </state>
@@ -817,7 +709,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/webapp/app/opus/opus.controller.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="181" max-vertical-offset="1320">
+        <state vertical-scroll-proportion="0.1762963" vertical-offset="181" max-vertical-offset="1320">
           <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
           <folding />
         </state>
@@ -830,7 +722,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Gruntfile.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="639" max-vertical-offset="10560">
+        <state vertical-scroll-proportion="0.5302115" vertical-offset="639" max-vertical-offset="10560">
           <caret line="33" column="33" selection-start-line="33" selection-start-column="32" selection-end-line="33" selection-end-column="33" />
           <folding />
         </state>
@@ -838,32 +730,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/webapp/app/common/header.controller.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="540" max-vertical-offset="5280">
+        <state vertical-scroll-proportion="0.9063444" vertical-offset="540" max-vertical-offset="5280">
           <caret line="38" column="34" selection-start-line="38" selection-start-column="34" selection-end-line="38" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webapp/app/skill/skill.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.13808976" vertical-offset="0" max-vertical-offset="869">
-          <caret line="4" column="19" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webapp/app/skill/skill.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.1025643" vertical-offset="23" max-vertical-offset="840">
-          <caret line="10" column="18" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webapp/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.0769231" vertical-offset="0" max-vertical-offset="1140">
-          <caret line="4" column="24" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
           <folding />
         </state>
       </provider>
@@ -873,6 +741,51 @@
         <state vertical-scroll-proportion="0.18867925" vertical-offset="0" max-vertical-offset="720">
           <caret line="4" column="24" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webapp/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.13207547" vertical-offset="504" max-vertical-offset="1140">
+          <caret line="14" column="48" selection-start-line="14" selection-start-column="48" selection-end-line="14" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/app/skill/skill.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.66292137" vertical-offset="217" max-vertical-offset="840">
+          <caret line="21" column="53" selection-start-line="21" selection-start-column="52" selection-end-line="21" selection-end-column="190" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webapp/app/skill/skill.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="420">
+          <caret line="6" column="19" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webapp/app/skill/skill.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-14.461538" vertical-offset="276" max-vertical-offset="1140">
+          <caret line="28" column="16" selection-start-line="28" selection-start-column="16" selection-end-line="28" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webapp/app/skill/skill.controller.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.66588783" vertical-offset="0" max-vertical-offset="1350">
+          <caret line="74" column="27" selection-start-line="74" selection-start-column="23" selection-end-line="74" selection-end-column="27" />
+          <folding>
+            <element signature="e#249#502#0" expanded="false" />
+            <element signature="e#509#966#0" expanded="false" />
+            <element signature="e#973#1441#0" expanded="false" />
+            <element signature="e#1448#1742#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>

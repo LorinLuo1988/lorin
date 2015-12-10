@@ -17,7 +17,17 @@
 			</div>
 		</div>
 	</div>
-	<div class="alert alert-success" role="alert">blog：<a href="http://my.oschina.net/u/1992917/blog" target="blog">http://my.oschina.net/u/1992917/blog</a></div>
-	<div class="alert alert-success" role="alert">github：<a href="https://github.com/lorin19881101?tab=repositories" target="github">https://github.com/lorin19881101?tab=repositories</a></div>
-	<div class="alert alert-info" role="alert">本站简介：本站采用angularjs来搭建前端框架，requirejs来进行模块化开发，并加入了自己写的scroller和slider两个插件，采用了bootstrap的一些样式和js插件,使用了jquery库和pace.js插件，大量编写自定义directive来简化模板和实现复用。</div>
+	<div class="alert alert-success" role="alert"><span ng-bind="blog.name"></span>：<a href="{{blog.link}}" target="blog" ng-bind="blog.link"></a></div>
+	<div class="alert alert-success" role="alert"><span ng-bind="github.name"></span>：<a href="{{github.link}}" target="github" ng-bind="github.link"></a></div>
+	<div class="panel panel-default">
+		<div class="panel-heading">
+			<h4 class="panel-title" ng-bind="websiteIntroduce.title"></h4>
+		</div>
+		<div class="panel-body">
+			<p>
+				源码：<a href="{{websiteIntroduce.link}}" target="_blank" ng-bind="websiteIntroduce.link"></a>
+			</p>
+			<p ng-bind="websiteIntroduce.introduce"></p>
+		</div>
+	</div>
 </div>
