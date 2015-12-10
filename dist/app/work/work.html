@@ -1,3 +1,22 @@
-<div>
-	work
+<div id="work">
+	<div id="education" scroller-common container-id="#education">
+		<div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+			<div ng-repeat="i in workData" class="panel panel-default">
+				<div class="panel-heading" role="tab" id="heading{{i.name}}">
+					<h4 class="panel-title">
+						<a class="clearfix" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse{{i.name}}" aria-expanded="true" aria-controls="collapse{{i.name}}">
+							<span class="badge pull-right" ng-bind="i.company"></span>
+							<span class="text-muted pull-left" ng-bind="i.date"></span>
+						</a>
+					</h4>
+				</div>
+				<div id="collapse{{i.name}}" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="heading{{i.name}}">
+					<div class="panel-body text-success" ng-bind="i.job"></div>
+					<ul class="list-group">
+						<li class="list-group-item" ng-repeat="j in i.list" ng-bind="j"></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
 </div>

@@ -19,6 +19,18 @@ introduce/introduce.css
 ----------------
 introduce/introduce.css
 
+opus/opus.css
+----------------
+opus/opus.css
+
+skill/skill.css
+----------------
+skill/skill.css
+
+work/work.css
+----------------
+work/work.css
+
 app.js
 ----------------
 lib/pace-0.5.6/pace.min.js

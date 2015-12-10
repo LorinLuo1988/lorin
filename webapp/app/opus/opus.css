@@ -1,0 +1,9 @@
+#opus {
+	margin-top: 15px;
+}
+#opus .thumbnail img {
+	width: 100%;
+	display: block;
+	border: 1px solid #dddddd;
+	padding: 5px;
+}

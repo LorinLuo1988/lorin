@@ -47,7 +47,7 @@ define([
 						function: "行为",
 						title: "用户界面交互，前后端交互",
 						list: [
-							"1. 熟悉ECMAScript语法",
+							"1. 熟悉ECMAScript核心语法",
 							"2. 熟悉浏览器对象模型(BOM)",
 							"3. 熟悉文档对象模型(DOM), 并处理兼容性问题",
 							"4. 能够熟练使用jquery进行项目开发",

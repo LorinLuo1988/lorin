@@ -1,3 +1,14 @@
-<div>
-	opus
+<div id="opus" scroller-common container-id="#opus">
+	<div class="row">
+		<div class="col-xs-12 col-sm-6 col-md-6 col-lg-4" ng-repeat="i in opusData">
+			<div class="thumbnail">
+				<img alt="100%x200" ng-src="{{i.imgUrl}}">
+				<div class="caption">
+					<h3 ng-bind="i.name"></h3>
+					<p ng-bind="i.description"></p>
+					<p><a href="{{i.link}}" ng-bind="i.link" target="link"></a></p>
+				</div>
+			</div>
+		</div>
+	</div>
 </div>

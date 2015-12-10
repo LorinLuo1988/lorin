@@ -1,3 +1,23 @@
-<div>
-	skill
+<div id="skill" scroller-common container-id="#skill">
+	<div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+		<div ng-repeat="i in skillData" class="panel panel-default">
+			<div class="panel-heading" role="tab" id="heading{{i.englishName}}">
+				<h4 class="panel-title">
+					<a class="clearfix" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse{{i.englishName}}" aria-expanded="true" aria-controls="collapse{{i.englishName}}">
+						<span class="badge pull-right" ng-bind="i.function"></span>
+						<span class="text-muted pull-left" ng-bind="i.name"></span>
+					</a>
+				</h4>
+			</div>
+			<div id="collapse{{i.englishName}}" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="heading{{i.englishName}}">
+				<div class="panel-body text-success" ng-bind="i.title"></div>
+				<ul class="list-group">
+					<li class="list-group-item" ng-repeat="j in i.list" ng-bind="j"></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<div class="alert alert-success" role="alert">blog：<a href="http://my.oschina.net/u/1992917/blog" target="blog">http://my.oschina.net/u/1992917/blog</a></div>
+	<div class="alert alert-success" role="alert">github：<a href="https://github.com/lorin19881101?tab=repositories" target="github">https://github.com/lorin19881101?tab=repositories</a></div>
+	<div class="alert alert-info" role="alert">本站简介：本站采用angularjs来搭建前端框架，requirejs来进行模块化开发，并加入了自己写的scroller和slider两个插件，采用了bootstrap的一些样式和js插件,使用了jquery库和pace.js插件，大量编写自定义directive来简化模板和实现复用。</div>
 </div>
